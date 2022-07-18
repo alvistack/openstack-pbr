@@ -1,0 +1,5 @@
+python-pbr (100:5.8.0-1) UNRELEASED; urgency=medium
+
+  * https://opendev.org/openstack/pbr/src/tag/5.8.0
+
+ -- Wong Hoi Sing Edison <hswong3i@gmail.com>  Fri, 19 Nov 2021 07:17:01 +0800
