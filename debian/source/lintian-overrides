@@ -1,0 +1,4 @@
+python-pbr source: file-without-copyright-information
+python-pbr source: no-debian-changes
+python-pbr source: source-contains-prebuilt-windows-binary
+python-pbr source: source-package-encodes-python-version
