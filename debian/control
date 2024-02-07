@@ -1,0 +1,28 @@
+Source: python-pbr
+Section: python
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Wong Hoi Sing Edison <hswong3i@pantarei-design.com>
+Homepage: https://pypi.org/project/pbr/#history
+Vcs-Browser: https://github.com/alvistack/openstack-pbr
+Vcs-Git: https://github.com/alvistack/openstack-pbr.git
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 10),
+ dh-python,
+ fdupes,
+ python3-dev,
+ python3-setuptools,
+
+Package: python3-pbr
+Architecture: all
+Description: Python Build Reasonableness
+ Manage dynamic plugins for Python applications.
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ ${python3:Depends},
+ python3,
+ python3-pkg-resources,
+ python3-setuptools,
+ python3-six,
