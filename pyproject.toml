@@ -14,8 +14,6 @@ requires = [
   # need.
   "setuptools;python_version<'3.7'"
 ]
-build-backend = "pbr.build"
-backend-path = ["."]
 
 [tool.setuptools]
 py-modules = []
