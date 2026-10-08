@@ -1,0 +1,4 @@
+python3-pbr: copyright-without-copyright-notice
+python3-pbr: initial-upload-closes-no-bugs
+python3-pbr: no-manual-page
+python3-pbr: zero-byte-file-in-doc-directory
